@@ -999,6 +999,9 @@ def onlineorderscomplete(request):
 # ----------------------------------------------------------------------------
 # pathologist material here
 
+
+## new section for pathology
+
 def testsadd(request):
     if not request.user.is_authenticated:
         return redirect('loginUser')
